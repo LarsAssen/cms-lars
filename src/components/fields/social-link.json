@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_fields_social_links",
+  "info": {
+    "displayName": "social-link",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "Instagram",
+        "Twitter",
+        "Threads",
+        "TikTok",
+        "LinkedIn",
+        "YouTube",
+        "Facebook",
+        "Medium",
+        "Reddit",
+        "Substack"
+      ]
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

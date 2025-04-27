@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "current_pages",
+  "info": {
+    "singularName": "current-page",
+    "pluralName": "current-pages",
+    "displayName": "CurrentPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "introText": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "lastUpdated": {
+      "type": "date"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fields.seo"
+    }
+  }
+}

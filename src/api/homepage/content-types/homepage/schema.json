@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "featuredPostsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.feature-grid"
+    },
+    "featuredSeriesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.feature-grid"
+    },
+    "featuredCategoriesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.feature-grid"
+    },
+    "featuredOfferingsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.feature-grid"
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "fields.social-link"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fields.seo"
+    }
+  }
+}
